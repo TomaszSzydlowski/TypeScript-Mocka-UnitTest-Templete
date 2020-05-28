@@ -1,0 +1,33 @@
+{
+  "name": "typescript-mocka-unittest-templete",
+  "version": "1.0.0",
+  "description": "This repository is a skeleton for testing the code written in the TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register --extensions ts,tsx --watch --watch-files src 'tests/**/*.{ts,tsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomaszSzydlowski/TypeScript-Mocka-UnitTest-Templete.git"
+  },
+  "keywords": [
+    "typescipt",
+    "mocha",
+    "unittest",
+    "templete"
+  ],
+  "author": "Tomasz Szydlowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomaszSzydlowski/TypeScript-Mocka-UnitTest-Templete/issues"
+  },
+  "homepage": "https://github.com/TomaszSzydlowski/TypeScript-Mocka-UnitTest-Templete#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  }
+}
